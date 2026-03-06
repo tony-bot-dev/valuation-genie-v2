@@ -1,0 +1,63 @@
+{
+  "source": "BizBuySell Insight Report 2025-2026",
+  "data_date": "Q4 2025",
+  "market_summary": {
+    "total_enterprise_value_2025": "$7.95 billion",
+    "yoy_change": "3%",
+    "median_sale_price": "$350,000",
+    "median_sale_price_yoy": "+2%",
+    "median_cash_flow": "$158,950",
+    "median_cash_flow_yoy": "+3%",
+    "median_revenue": "$703,000",
+    "median_revenue_yoy": "+3%"
+  },
+  "by_sector": {
+    "service": {
+      "median_sale_price": "$340,000",
+      "transaction_volume_change": "+4%",
+      "cash_flow_multiple": "2.5-3.5"
+    },
+    "retail": {
+      "median_sale_price": "$320,000",
+      "transaction_volume_change": "+1%",
+      "cash_flow_multiple": "2.0-3.0"
+    },
+    "restaurant": {
+      "median_sale_price": "$280,000",
+      "transaction_volume_change": "-2%",
+      "cash_flow_multiple": "2.0-2.5"
+    },
+    "manufacturing": {
+      "median_sale_price": "$450,000",
+      "transaction_volume_change": "+2%",
+      "cash_flow_multiple": "3.0-4.0"
+    },
+    "healthcare": {
+      "median_sale_price": "$380,000",
+      "transaction_volume_change": "+3%",
+      "cash_flow_multiple": "3.0-4.5"
+    },
+    "construction": {
+      "median_sale_price": "$310,000",
+      "transaction_volume_change": "+1%",
+      "cash_flow_multiple": "2.5-3.5"
+    }
+  },
+  "buyer_market_conditions": {
+    "favor_buyers": "34%",
+    "favor_sellers": "34%",
+    "balanced": "27%",
+    "unsure": "5%"
+  },
+  "trends": [
+    "Private Equity activity increased (44% of brokers report more PE buyers)",
+    "Search funds / ETA buyers becoming major force",
+    "Well-run businesses go under contract 2-3x faster than normal",
+    "Higher costs squeezing margins, affecting valuations",
+    "SBA loan activity continues strong"
+  ],
+  "sources": [
+    "BizBuySell Insight Report Q4 2025",
+    "BizBuySell Interactive Market Data"
+  ]
+}

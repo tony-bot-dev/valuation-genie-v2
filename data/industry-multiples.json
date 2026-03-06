@@ -1,0 +1,81 @@
+{
+  "description": "Industry valuation multiples - Rule of Thumb",
+  "sources": ["BizBuySell", "Business Brokerage Institute", "Fe International", "Multiple of Earnings"],
+  "last_updated": "2026-03",
+  "multiples": {
+    "restaurants_full_service": {
+      "name": "Full-Service Restaurants",
+      "sde_multiple": {"min": 1.5, "max": 2.5, "typical": 2.0},
+      "revenue_multiple": {"min": 0.3, "max": 0.6, "typical": 0.45}
+    },
+    "restaurants_limited_service": {
+      "name": "Limited-Service/Fast Food",
+      "sde_multiple": {"min": 1.5, "max": 2.5, "typical": 2.0},
+      "revenue_multiple": {"min": 0.3, "max": 0.5, "typical": 0.4}
+    },
+    "retail_general": {
+      "name": "General Retail",
+      "sde_multiple": {"min": 2.0, "max": 3.0, "typical": 2.5},
+      "revenue_multiple": {"min": 0.4, "max": 0.7, "typical": 0.5}
+    },
+    "professional_services": {
+      "name": "Professional Services (Accounting, Consulting)",
+      "sde_multiple": {"min": 2.0, "max": 4.0, "typical": 3.0},
+      "revenue_multiple": {"min": 0.6, "max": 1.2, "typical": 0.8}
+    },
+    "construction_trades": {
+      "name": "Construction/Trades (Plumbing, HVAC, Electrical)",
+      "sde_multiple": {"min": 2.0, "max": 3.5, "typical": 2.75},
+      "revenue_multiple": {"min": 0.5, "max": 0.9, "typical": 0.65}
+    },
+    "manufacturing": {
+      "name": "Manufacturing",
+      "sde_multiple": {"min": 3.0, "max": 5.0, "typical": 4.0},
+      "revenue_multiple": {"min": 0.6, "max": 1.2, "typical": 0.8}
+    },
+    "healthcare_dental": {
+      "name": "Dental Practices",
+      "sde_multiple": {"min": 3.0, "max": 5.0, "typical": 4.0},
+      "revenue_multiple": {"min": 0.8, "max": 1.5, "typical": 1.0}
+    },
+    "healthcare_medical": {
+      "name": "Medical Practices",
+      "sde_multiple": {"min": 3.0, "max": 4.5, "typical": 3.5},
+      "revenue_multiple": {"min": 0.6, "max": 1.2, "typical": 0.8}
+    },
+    "auto_repair": {
+      "name": "Auto Repair",
+      "sde_multiple": {"min": 2.0, "max": 3.0, "typical": 2.5},
+      "revenue_multiple": {"min": 0.4, "max": 0.7, "typical": 0.55}
+    },
+    "landscaping": {
+      "name": "Landscaping/Home Services",
+      "sde_multiple": {"min": 2.0, "max": 3.0, "typical": 2.5},
+      "revenue_multiple": {"min": 0.5, "max": 0.8, "typical": 0.6}
+    },
+    "franchise": {
+      "name": "Franchises (General Range)",
+      "sde_multiple": {"min": 2.0, "max": 4.0, "typical": 2.75},
+      "revenue_multiple": {"min": 0.4, "max": 1.0, "typical": 0.6}
+    },
+    "fitness": {
+      "name": "Fitness Centers",
+      "sde_multiple": {"min": 2.0, "max": 3.5, "typical": 2.5},
+      "revenue_multiple": {"min": 0.4, "max": 0.7, "typical": 0.5}
+    },
+    "trucking": {
+      "name": "Trucking/Transportation",
+      "sde_multiple": {"min": 2.5, "max": 4.0, "typical": 3.25},
+      "revenue_multiple": {"min": 0.5, "max": 0.9, "typical": 0.65}
+    },
+    "e_commerce": {
+      "name": "E-commerce",
+      "sde_multiple": {"min": 2.0, "max": 4.0, "typical": 3.0},
+      "revenue_multiple": {"min": 0.5, "max": 1.5, "typical": 0.8}
+    }
+  },
+  "notes": {
+    "sde": "Seller's Discretionary Earnings - owner's benefit + profit + depreciation",
+    "revenue": "Revenue multiple varies widely by industry and business quality"
+  }
+}
